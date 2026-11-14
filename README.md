@@ -43,7 +43,7 @@ isekai/
   data.py             map, enemies, skills, items, dialogs (pure data)
   core.py             battle engine, damage/XP/leveling, save model (pure logic)
   pix.py              procedural pixel-art sprites and tiles
-  sfx.py              procedural sound effects (synthesized via pygame.mixer)
+  sfx.py              procedural sound effects (WebAudio-style synth via pygame.mixer)
   ui.py               dialog box, menus, HP/MP/XP bars
   overworld.py        tile map, movement, encounters, NPCs
   battle.py           turn-based battle scene
